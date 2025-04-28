@@ -68,13 +68,15 @@ After running the demo command on the sample PDF (`docs/GraphletAI-PropertyGraph
 
 The key outputs include:
 
+* PDF name
+* Page folder
 *   **`content.md`**: Contains the textual page content extracted from the PDF document, formatted using **Markdown** to potentially preserve some structural elements like headings or lists.
-*   **`tables/`**: A subdirectory containing extracted tables, likely saved as individual files (e.g., `table_1.csv`, `table_2.json`). Each file represents one detected table in a structured format. *(Note: The sample document might not contain tables)*.
 *   **`images/`**: A subdirectory containing the actual image files extracted from the PDF.
-*   **`image_analysis.json` (or similar)**: A file (often JSON or CSV) listing information about detected images. This typically includes:
-    *   The detected caption associated with an image.
-    *   The classification result for the image (e.g., "chart", "photograph", "logo", "captioned", "background").
     *   The filename of the corresponding image saved in the `images/` subdirectory.
+*   **`images/captions`**: A subdirectory containing the captioned image files extracted from the PDF.
+    *   The detected caption associated with an image.
+    *   The filename of the corresponding image saved in the `images/` subdirectory.
+*   **`tables/`**: A subdirectory containing extracted tables, likely saved as individual files (e.g., `table_1.csv`, `table_2.json`). Each file represents one detected table in a structured format. *(Note: The sample document might not contain tables)*.
 
 ### Output Summary for Sample PDF
 
