@@ -82,7 +82,7 @@ The results in the `output1` directory demonstrate the successful extraction cap
 
 *   Text content is extracted into Markdown format.
 *   Images are successfully identified and saved.
-*   **Image captions are correctly detected and associated with their respective images**, as can be verified by examining the `image_analysis.json` file and the extracted content/images for **page 3** and **page 19**.
+*   **Image captions are correctly detected and associated with their respective images**, as can be verified by examining the extracted content/images for **page 3** and **page 19**.
 
 Review the files within `output1/` to explore the detailed results of the text extraction, table structuring (if any), caption detection, and image classification performed on the sample document.
 
