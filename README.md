@@ -20,7 +20,6 @@ This demo project highlights several core competencies:
 
 *   **Pipeline Orchestration:** Managing a multi-step workflow from PDF input to structured output using a central script (`main.py`).
 *   **Modular Design:** Integrating specialized modules for PDF parsing, text processing, table detection, image handling, and AI model inference.
-*   **Pre-trained Model Integration:** Utilizing an existing computer vision model for image classification within a custom application.
 *   **Efficient Tooling:** Leveraging modern, high-performance tools like `uv` for environment and dependency management.
 *   **Data Handling:** Processing and structuring diverse data types (text, tables, images, metadata).
 
