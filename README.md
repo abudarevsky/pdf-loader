@@ -70,8 +70,8 @@ The key outputs include:
 
 
 * Page folder includes:
-    *   **`content.md`**: Contains the textual page content extracted from the PDF document, formatted using **Markdown** to potentially preserve some structural elements like headings or lists.
-        *   **`images/`**: A subdirectory containing the actual image files extracted from the PDF.
+    *   **`content.md`**: Contains the textual page content extracted from the PDF document, formatted using **Markdown** to potentially preserve some structural elements like headings or lists.    
+    *   **`images/`**: A subdirectory containing the actual image files extracted from the PDF.
         *   The filename of the corresponding image saved in the `images/` subdirectory.
     *   **`images/captions`**: A subdirectory containing the captioned image files extracted from the PDF.
         *   The detected caption associated with an image.
