@@ -1,0 +1,20 @@
+perform semantic searches on an enterprise knowledge graph. Vector search is also a powerful tool for
+internationalization (i18n) using tools like multilingual sentence transformers. Scaled up queries using
+vectors are simple to add to both Elastic 8 now that Lucene 9 supports ANN and OpenSearch supports
+vector search as well. While there are numerous new vector search engines, Elastic with vector search
+support is an eﬀective way to search billion node/edge knowledge graphs as it is easily partitioned across
+multiple machines and has excellent support through the Lucene community. Elastic makes it easier to load
+data and handle a query workload while scaling in a linear manner. Either version of Elastic can now use
+TF-IDF style search for matching or ANN and also rank and re-rank using vector matching. A property graph
+factory should include an API for vectorizing search requests through a model management system like
+MLFlow to incorporate them into queries against Elastic as it takes a query vector to search with an index
+vector. Tools like Steamlit and BentoML ensure most ML platforms will soon oﬀer APIs for inference and
+associated information retrieval.
+
+## Explainability via Network Visualization
+People do not act on predictions that they don’t trust. Without explainability or causal modeling, even
+accurate predictions have limited utility in many domains. When working with knowledge graphs, network
+visualization is an eﬀective way of visualizing explanations of predictions in a knowledge graph factory. In
+fact even without an explainable model, serving a prediction along with the subgraph of its neighborhood
+provides rich context that can satisfy explainability requirements.
+21

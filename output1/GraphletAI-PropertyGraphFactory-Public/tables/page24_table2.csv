@@ -1,0 +1,60 @@
+﻿0
+"NOTE: THIS SECTION IS IN PROGRESS. It is pasted from a [too] long email
+:)"
+"Features that Graphlet AI will
+incorporate include:"
+"●
+Python base classes for speeding up PySpark ETL of diﬀerent datasets into a uniform ontology that"
+"produce DataFrame schemas making them easy to use with pandas_udfs in PySpark.
+It would have"
+saved us a ton of time if we had classes with properties and we just extended the methods and they
+were run in one LOC for each dataset we transformed from the raw datasets to our application
+"graph. For example at
+the moment on a project
+I have gigabytes of GitHub, GitLab and BitBucket"
+"repository metadata and I want
+to transform it
+into a Repository entity in an open source ecosystem"
+"ontology. Makes it easy to deﬁne base classes to reuse code to transform.
+I am looking at using"
+"something like pydantic-spark which makes this pretty easy...
+just a matter of a good example in"
+"docs.
+It would have saved us time on a team that went from 1 to 16 engineers."
+"●
+GPU accelerated fuzzy LSH joins in Spark. Spark's included implementation of LSH joins is CPU and"
+was a major bottleneck for us using 384 dimension sentence transformers to do blocking for entity
+"resolution on Databricks...
+reducing the size of
+the vector
+involved was the way to optimize it on"
+Spark but we ended up using distributed FAISS instead. For a single stop KG platform you want it to
+"""just work""
+on
+your
+cluster
+to
+get
+the job done. The Google Grale paper
+takes note of
+the"
+"widespread use of LSH on embeddings to implement a sort of ""MapLSH"" for graph ML which is as"
+"fundamental
+for scaling graph ML as MapReduce is for scaling general data processing. Whatever"
+"the domain of your graph, you are missing many of
+the edges for
+the relations you have in your"
+problem domain and you don't have the edges you need that deﬁne solutions in that space... you
+need to pair nodes to use ML to build the edges that enable simple graph analytics to build and
+deploy automation solutions.
+"●
+A conﬁgurable entity resolution system for large knowledge graphs using deep entity matching for"
+pre-trained language models (Github)
+"●
+Tools
+to go from PySpark (GraphFrames) or pandas node/edge DataFrames to a deployed API"
+"driven by Amazon Neptune and OpenSearch... could be Neo4j and Elastic. The point
+is once you"
+"have a graph, you probably need to serve the actual graph with the inferences you're making"
+"(sometimes not, but
+I have always needed to in the problems I've worked on) and this should be a"

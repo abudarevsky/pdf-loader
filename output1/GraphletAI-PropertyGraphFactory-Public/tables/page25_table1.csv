@@ -1,0 +1,30 @@
+﻿0,1,2,3
+,point-click solution.,I've thought of making a product on top of Databricks that does this on AWS.,
+●,"Support
+for
+writing motifs","in GraphFrames
+and
+shipping
+them as
+graphlet
+features
+to",the
+,aforementioned API,"so
+you
+can
+visualize
+the
+structural
+roles
+involved
+in
+a
+viz
+as
+a",form of
+,explanation. You can also use them in your representation learning.,,
+●,Summarization of nodes,"and edges with embeddings
+that",then ship in the form of vectors in
+,OpenSearch / Elastic so you can use them for search.,It would be great,if you could go from a
+,,GraphFrame and do what PyGraphistry is doing with DGL to get an embedding from a GNN in a few,
+,lines of code. The scale part is what is hard.,,

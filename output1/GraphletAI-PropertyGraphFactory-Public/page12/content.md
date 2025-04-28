@@ -1,0 +1,14 @@
+Because large language models have parsed a lot of XML, this scheme is suﬃcient to allow a sentence
+transformer or other text representation to infer the meaning of the semi-structured lists of oﬃcers and to
+consider them in context of other instances of descriptions of corporate oﬃcers.
+
+## Entity Matching 4.0: Graph Neural Networks
+In the highest level of sophistication for entity matching a GNN representation of nodes can be ﬁne-tuned in
+a classiﬁer to incorporate graph features beyond individual ﬁelds in a node’s immediate neighbors.
+11
+
+-- Page Images --
+![Image 1](./images/image_1.png)
+
+![Image 2](./images/image_2.png)
+

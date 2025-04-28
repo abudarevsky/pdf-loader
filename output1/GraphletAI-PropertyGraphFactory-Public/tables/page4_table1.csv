@@ -1,0 +1,37 @@
+﻿0
+"using simple graph algorithms like connected components or other types of querying or pattern matching.
+It"
+can also be the basis for graph machine learning on a more reﬁned graph.
+"This document outlines
+the broad requirements
+for
+a property graph factory that embraces the most"
+"popular open source technologies for machine learning, big data and information retrieval and that meets"
+the needs of users in enterprises by extending the data platforms they already use. This conﬂuence of
+"factors are they key to unlocking the potential of
+the knowledge graph and graph database markets under"
+the auspices of graph intelligence.
+PLATFORM ARCHITECTURE
+"The system architecture for
+this platform is optimized for
+large scale datasets and their corresponding"
+"knowledge graphs by
+adopting the Delta Architecture,
+supported by cloud services for search, graph"
+"retrieval and machine learning operations. The data pipeline is operated under an ingest
+/ build / reﬁne /"
+"publish
+/
+query model
+of
+data
+processing. As much
+data processing as possible is performed in a"
+"horizontally scalable, batch processing system such as Databricks (PySpark) or Snowﬂake. The platform"
+"builds on top of
+the open Python data stack, which is utilized for the purposes of Extract Transform Load"
+"(ETL),
+feature extraction or engineering, construction of a knowledge graph with a uniform ontology for a"
+"given problem domain, graph representation learning, entity resolution and the computation of network"
+motifs or heterogenous graphlets which are then folded into node-level representations as heterogeneous
+graphlet minors.

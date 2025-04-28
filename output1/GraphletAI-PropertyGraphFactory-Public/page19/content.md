@@ -1,0 +1,23 @@
+![MotifExplainer on the left provides explanations in terms of network motif visualizations](./images/captions/caption_1.png)
+
+
+## KNOWLEDGE GRAPH SERVICES
+This section outlines how knowledge graphs, once constructed, ﬁnd use inside an enterprise. Most
+enterprises have more than one reason to build a knowledge graph. Node representations from graph
+neural networks trained on knowledge graphs can ﬁnd a range of internal use cases within a single
+organization by powering multiple models that automate tasks. A knowledge graph for this use case is a
+feature store. On the other hand many use cases for knowledge graphs within an enterprise involve serving
+a portion of the graph via an API based on a search query along with any inferences produced by a model.
+
+## Task Automation via Transfer Learning
+The novelty of graph machine learning in the form of graph neural networks is that the representations it
+produces are able to incorporate the context of a node’s surroundings in a network in an embedding for
+each node in the network. These node embeddings are a general purpose asset to drive machine learning
+applications within a company. Once the problem domain of the business that the knowledge graph models
+is understood in the right representation, task automation using these representations is a much simpler
+matter. This is how knowledge graphs can power a company in its transformation to Software 2.0, where its
+core assets are the models that automate its business processes rather than the source code that powers
+its services.
+
+## Graph Search, Model Management and API Access
+18

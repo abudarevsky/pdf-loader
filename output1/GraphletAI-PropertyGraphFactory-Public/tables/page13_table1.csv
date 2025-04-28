@@ -1,0 +1,9 @@
+﻿0,1
+Heterogenous Graphlets and their Minors,
+Query languages for property graphs enable rich queries for network motifs incorporating both topology,
+"and node and edge properties. However, without ﬁrst performing entity resolution, graph queries do not",
+return good results because hopping across edges misﬁres due to duplicate nodes. This is especially the,
+"case on datasets and knowledge graphs that are themselves made up of disparate sources of nodes, edges",
+and their properties because there is heavy bias in what results and how many are returned.,I have seen
+match counts for a motif search to be as much one million times more frequent after entity resolution is,
+performed!,
